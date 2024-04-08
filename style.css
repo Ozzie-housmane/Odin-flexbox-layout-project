@@ -104,3 +104,25 @@ color: #1F2937;
     background-color: aliceblue;
 
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    
+
+    
+}
+.qtext{
+    flex-shrink: 0;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+   color: #1F2937;}
+.thor{
+    align-self: flex-end;
+    font-weight: 700;
+    color: #1F2937;
+}
+.quotesec{
+background-color: #E5E7EB;
+}
