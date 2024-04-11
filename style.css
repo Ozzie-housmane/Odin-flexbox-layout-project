@@ -67,9 +67,12 @@ body{
 .btn{
    
    background-color: #3882F6;
-   padding: 10px;
+   padding-left: 10px;
+   padding-right: 10px ;
    width: 100px;
-   border-radius: 10px; 
+   border-radius: 10px;
+   border: #3882F6 solid 6px;
+   color: #F9FAF8; 
 }
 .img{
     border: #3882F6 solid 3px;
@@ -125,4 +128,45 @@ color: #1F2937;
 }
 .quotesec{
 background-color: #E5E7EB;
+}
+.containersec{
+    background-color: #F9FAF8;
+}
+.containerbl{
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+    margin: 50px 110px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    padding-left: 60px; 
+    padding-right: 60px;
+    column-gap: 150px; 
+}
+.textdiv{
+    flex-basis: 60%;
+}
+.boldtx{
+    font-weight: 800;
+}
+.btndiv{
+    align-self: center; 
+}
+.signup{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: #E5E7EB 2px solid;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.foot{
+    color: #F9FAF8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: smaller;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
